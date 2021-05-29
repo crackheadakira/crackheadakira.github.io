@@ -2558,7 +2558,19 @@ input, select, textarea {
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
 				}
-
+				.wrapper.style4 .icon.major:before {
+					color: #520b20 ;
+				}
+				.wrapper.style4-alt .icon.major:before {
+					color: #3c0921;
+				}				
+				}
+				.wrapper.style5 .icon.major:before {
+					color: #1e3a29 ;
+				}
+				.wrapper.style5-alt .icon.major:before {
+					color: #305d42;
+				}				
 /* Image */
 
 	.image {
@@ -3262,6 +3274,23 @@ input, select, textarea {
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
+
+		.wrapper.style4 {
+			background-color: #520b20;
+		}
+
+		.wrapper.style4-alt {
+			background-color: #3c0921;
+		}
+		.wrapper.style5 {
+			background-color: #1e3a29;
+		}
+
+		.wrapper.style5-alt {
+			background-color: #305d42;
+		}
+
+
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
