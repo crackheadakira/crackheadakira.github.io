@@ -390,6 +390,7 @@ input, select, textarea {
 
 		.row > .col-3 {
 			width: 25%;
+            height: 25%;
 		}
 
 		.row > .off-3 {
@@ -398,6 +399,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+            height: 33.33333%;
 		}
 
 		.row > .off-4 {
@@ -641,6 +643,7 @@ input, select, textarea {
 
 				.row > .col-4-xlarge {
 					width: 33.33333%;
+                    height: 33.33333%;
 				}
 
 				.row > .off-4-xlarge {
@@ -886,6 +889,7 @@ input, select, textarea {
 
 				.row > .col-4-large {
 					width: 33.33333%;
+                    height: 33.33333%;
 				}
 
 				.row > .off-4-large {
@@ -1131,6 +1135,7 @@ input, select, textarea {
 
 				.row > .col-4-medium {
 					width: 33.33333%;
+                    height: 33.33333%;
 				}
 
 				.row > .off-4-medium {
@@ -1376,6 +1381,7 @@ input, select, textarea {
 
 				.row > .col-4-small {
 					width: 33.33333%;
+                    height: 33.33333%;
 				}
 
 				.row > .off-4-small {
@@ -1621,6 +1627,7 @@ input, select, textarea {
 
 				.row > .col-4-xsmall {
 					width: 33.33333%;
+                    height: 33.33333%;
 				}
 
 				.row > .off-4-xsmall {

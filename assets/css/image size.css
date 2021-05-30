@@ -1,0 +1,23 @@
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.portrait {
+    height: 5+0;
+    width: 2048px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+.row > .col-t {
+    width: 50%;
+    height: 50%;
+}
