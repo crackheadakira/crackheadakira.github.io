@@ -1,0 +1,59 @@
+@import url('http://fonts.cdnfonts.com/css/womby');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: "Womby", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+}
+
+#main {
+    margin-left: 56px;
+    margin-right: 56px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 56px;
+}
+
+#content {
+    word-wrap: break-word;
+    border: 2px solid rgb(236, 208, 48);
+    padding: 8px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    gap: 32px;
+}
+
+#hero, #projectTab{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 150ms ease-in-out;
+}
+
+a:hover, a:active {
+    filter: opacity(50%);
+}
