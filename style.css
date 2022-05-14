@@ -3,6 +3,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('Womby'), url('./assets/fonts/Womby-Regular.woff') format('woff');
+    src: local('Womby'), url('../../crackheadakira/assets/fonts/Womby-Regular.woff') format('woff');
 }
 
 body {
