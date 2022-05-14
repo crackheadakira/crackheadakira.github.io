@@ -27,7 +27,7 @@ p {
 
 #descriptionTitle {
     max-width: 800px;
-    /*padding: 32px;*/
+    padding: 32px;
 }
 
 #title {
@@ -41,8 +41,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*gap: 32px*/
-    /*padding: 32px;*/
+    gap: 32px;
+    padding: 32px;
 }
 
 .chapterTitle {
