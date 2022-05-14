@@ -6,34 +6,21 @@ body {
     background-color: rgb(19, 19, 19);
     color: white;
     font-family: "Womby", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 600;
     text-align: center;
     opacity: 0;
     transition: opacity 2s;
     -webkit-transition: opacity 2s;
+    letter-spacing: 2px;
 }
 
 #main {
-    margin-left: 56px;
-    margin-right: 56px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    gap: 56px;
-}
-
-#content {
-    word-wrap: break-word;
-    border: 2px solid rgb(236, 208, 48);
-    padding: 8px;
-    margin-top: 56px;
-    margin-bottom: 56px;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
     gap: 32px;
 }
 
@@ -45,8 +32,13 @@ body {
 }
 
 .title {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
+    transition: 200ms;
+}
+
+.title:hover {
+    transform: translateY(-3px);
 }
 
 a {
@@ -55,7 +47,6 @@ a {
     transition: 150ms ease-in-out;
 }
 
-a:hover,
-a:active {
+a:hover {
     filter: opacity(50%);
 }
