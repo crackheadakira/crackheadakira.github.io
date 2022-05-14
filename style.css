@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'Womby';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Womby'), url('./assets/fonts/Womby-Regular.woff') format('woff');
-    src: local('Womby'), url('../../crackheadakira/assets/fonts/Womby-Regular.woff') format('woff');
-}
+@import url('http://fonts.cdnfonts.com/css/womby');
 
 body {
     padding: 0;
@@ -43,7 +37,8 @@ body {
     gap: 32px;
 }
 
-#hero, #projectTab{
+#hero,
+#projectTab {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -60,6 +55,7 @@ a {
     transition: 150ms ease-in-out;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     filter: opacity(50%);
 }
