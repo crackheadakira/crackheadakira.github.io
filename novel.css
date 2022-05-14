@@ -13,18 +13,13 @@ body {
     font-size: 20px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 p {
     filter: opacity(90%)
 }
 
 #main {
-    word-wrap: break-word;
     height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +27,7 @@ p {
 
 #descriptionTitle {
     max-width: 800px;
-    padding: 32px;
+    /*padding: 32px;*/
 }
 
 #title {
@@ -46,8 +41,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 64px;
-    padding: 32px;
+    /*gap: 32px*/
+    /*padding: 32px;*/
 }
 
 .chapterTitle {
