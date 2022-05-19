@@ -28,11 +28,11 @@ body {
 #projectTab {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
 }
 
 .project{
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .title {
