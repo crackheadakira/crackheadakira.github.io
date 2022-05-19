@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill.b7f2da20.js";let e=[],r=Date.now();document.addEventListener("keydown",o=>{const t=o.key.toLowerCase();if("cerst".indexOf(t)===-1)return;const n=Date.now();if(n-r>750&&(e=[]),e.push(t),r=n,e.toString()==="s,e,c,r,e,t")return window.location.href="./novel.html"});
