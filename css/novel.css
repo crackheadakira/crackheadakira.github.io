@@ -48,6 +48,7 @@ p {
 .chapterTitle {
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 32px;
 }
 
 .chapter,
