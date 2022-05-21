@@ -1,3 +1,4 @@
+CHAPTER 4 - THE TRIAL
 I sit there in total silence as I wonder why the gods haven't made contact with this world in several millenia, but right now I have more important things to focus on, like my trial. Mr. Honeybuns grabs me by tbe arm and starts bringing me along to a round courtroom. In the middle of the room is a single stand with a spotlight ontop of it. He pushes me forward indicating that I should go there. I slowly walk there as I look around the room, but I can't see anything as it's too dark, all I can hear are whispers. I go stand at the stand and suddenly 3 spotlights show up ahead of me. In walk 3 men and stand on podiums. One of the men swing his arm back and then a loud, yet clear thud can be heard throughout the room. With that bang all the whipsering stops.
 
 "State your name." says the man that had swung the hammer."

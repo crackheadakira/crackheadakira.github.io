@@ -1,3 +1,4 @@
+CHAPTER 6 - THE BUILDING
 We walked through the door, and my god the building was enormous, it was as if the size of the interior didn't match the exterior at all. I feel like whatever his name was has seen this expression of awe on the face of many generations.
 
 "Hey, what's your name even, you haven't told me yet."

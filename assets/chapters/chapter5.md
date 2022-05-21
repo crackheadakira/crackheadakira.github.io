@@ -1,3 +1,4 @@
+CHAPTER 5 - ESCAPE
 After he knocked out Mr. Honeybuns sin Carne he took me by the hand and told me to follow him. We took a turn and went towards a wall. As we were nearing the wall he started looking more lax, he then suddenly reached out his hand towards the wall. But instead of his hand being stopped by the wall, it went right through it.
 
 "Come on, we're near the exit."
