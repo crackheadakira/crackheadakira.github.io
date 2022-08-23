@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -9,13 +13,22 @@ body {
     opacity: 0;
     transition: opacity 2s;
     -webkit-transition: opacity 2s;
-    text-align: center;
     font-size: 20px;
 }
 
 
 p {
-    filter: opacity(90%)
+    filter: opacity(80%)
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+
+a:hover {
+    filter: opacity(50%);
 }
 
 #main {
@@ -54,9 +67,41 @@ p {
 .chapter,
 #description {
     max-width: 800px;
-    text-align: justify;
 }
 
 #footer {
     margin-bottom: 32px;
+}
+
+#themeSwitcher {
+    margin: 32px;
+    filter: invert(1);
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 250ms;
+}
+
+#themeSwitcher:hover {
+    cursor: pointer;
+}
+
+#selectChapter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    width: fit-content;
+    gap: 16px;
+    word-wrap: break-word;
+    margin-left: 32px;
+}
+
+@media only screen and (max-width: 890px) and (orientation: portrait) {
+    #selectChapter {
+        display: none;
+    }
 }

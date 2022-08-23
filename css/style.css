@@ -1,5 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/womby');
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -11,8 +16,16 @@ body {
     text-align: center;
     opacity: 0;
     transition: opacity 2s;
-    -webkit-transition: opacity 2s;
     letter-spacing: 2px;
+    -webkit-transition: opacity 2s;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 #main {
@@ -20,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 100%;
     gap: 32px;
 }
 
@@ -28,17 +41,22 @@ body {
 #projectTab {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 12px;
+    overflow-wrap: break-word;
 }
 
-.project{
+.project {
     margin-bottom: 12px;
 }
 
 .title {
     font-size: 4rem;
     font-weight: 700;
-    transition: 200ms;
+    width: fit-content;
+    transition: transform 200ms;
+    will-change: transform;
 }
 
 .title:hover {
