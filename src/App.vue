@@ -23,6 +23,10 @@ const projects = [{
         {
             name: "JavaScript",
             image: "/assets/images/languages/javascript.png"
+        },
+        {
+            name: "Node.js",
+            image: "/assets/images/languages/nodejs.png"
         }
     ]
 },

@@ -97,7 +97,6 @@ a {
 
 .language {
     cursor: default;
-    width: 20px;
     height: 20px;
 }
 
