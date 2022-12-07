@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Womby";
+    src: url('/assets/fonts/womby.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body, #app {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: "Womby", sans-serif;
+    font-size: 1.35rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    -webkit-font-smoothing: antialiased;
+}
