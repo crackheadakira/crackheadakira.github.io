@@ -4,8 +4,8 @@
             <div class="title">MORGAN</div>
             <div id="subText">a 15yo self-taught programmer</div>
             <div class="iconList">
-                <a href="https://github.com/crackheadakira/" target="_blank"><img src="/assets/images/githublogolight.png" width="32px" height="32px" alt="Github" /></a>
-                <a href="https://youtube.com/c/akiraoncrack/" target="_blank"><img src="/assets/images/youtubelogolight.png" width="32px" height="32px" alt="Youtube" /></a>
+                <a href="https://github.com/crackheadakira/" target="_blank"><img src="/assets/images/socials/githublogolight.png" width="32px" height="32px" alt="Github" /></a>
+                <a href="https://youtube.com/c/akiraoncrack/" target="_blank"><img src="/assets/images/socials/youtubelogolight.png" width="32px" height="32px" alt="Youtube" /></a>
             </div>
         </div>
         <div id="projectTab">
