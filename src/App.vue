@@ -48,6 +48,20 @@ const projects = [{
             image: "/assets/images/languages/html.png"
         }
     ]
+},
+{
+    name: "RoR2API",
+    url: "https://github.com/crackheadakira/RoR2API",
+    languages: [
+        {
+            name: "JavaScript",
+            image: "/assets/images/languages/javascript.png"
+        },
+        {
+            name: "Node.js",
+            image: "/assets/images/languages/nodejs.png"
+        }
+    ]
 }]
 </script>
 
@@ -57,8 +71,9 @@ const projects = [{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100%;
     gap: 32px;
+    min-height: 100%;
+    padding: 1rem;
 }
 
 #hero,
