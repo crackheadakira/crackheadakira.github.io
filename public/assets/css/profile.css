@@ -35,7 +35,8 @@
     margin-bottom: 2rem !important;
 }
 
-.desktop[data-v-63cd3b41] {
+/* last.fm embed replacing Genre Overview */
+/*.desktop[data-v-63cd3b41] {
 	background-image: url(https://fm.morgantali.tech/crackheadakira?showStatus=true&statusBar=true&statusBarColor=d878cb&bgColor=151f2e) !important;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
@@ -46,7 +47,7 @@
 
 .desktop[data-v-63cd3b41] > * {
     display: none !important;
-}
+}*/
 
 .el-dropdown[data-v-eb51fd0e] {
     padding-right: 0 !important;
