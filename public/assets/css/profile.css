@@ -58,5 +58,5 @@
 }
 
 .banner {
-	background-image: url("https://i.imgur.com/jMCP0jp.gif");
+	background-image: url("https://i.imgur.com/jMCP0jp.gif") !important;
 }
