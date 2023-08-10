@@ -65,7 +65,7 @@
     max-width: none !important;
 }
 
-.activity-feed-wrap.activity.feed {
+.activity-feed-wrap > activity.feed {
     grid-template-columns: 1fr 1fr 1fr !important;
 }
 
