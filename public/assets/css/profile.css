@@ -1,4 +1,4 @@
-.stats-wrap {
+.stats-wrap[data-v-815ccddc] {
 	display: grid;
 	padding: 20px 10px;
 	text-align: center;
@@ -9,14 +9,17 @@
 	grid-template-rows: 1fr 1fr;
 	grid-template-areas: "Total Watched" "Total Score";
 	align-items: center;
+
+    /* Remove from AniList CSS */
+    grid-auto-columns: none;
 }
 
 .stat:first-of-type {
 	grid-area: Total;
+}
 
-    .value {
-        font-size: 3rem;
-    }
+.stat:first-of-type .value {
+    font-size: 3rem;
 }
 
 .stats-wrap .stat:nth-child(2) {
