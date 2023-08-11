@@ -58,26 +58,28 @@
 }
 
 .banner {
-	background-image: url("https://i.imgur.com/jMCP0jp.gif") !important;
+	background-image: url("https://i.imgur.com/Mu0EXg6.gif") !important;
 }
 
 .container {
     max-width: none !important;
 }
 
-.activity-feed-wrap > .activity-feed {
-    grid-template-columns: 1fr 1fr 1fr !important;
-}
-
-.activity-text {
-    grid-column-end: 4 !important;
-}
-
-.activity-entry.full-width {
-    grid-column-end: 2 !important;
-}
-
 .nav-wrap > .nav.container {
     display: flex;
     justify-content: space-evenly
+}
+
+@media (min-width: 1540px)  {
+    .activity-feed-wrap > .activity-feed {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+
+    .activity-feed.activity-message, .activity-feed.activity-text {
+        grid-column-end: 4 !important;
+    }
+
+    .activity-entry.full-width {
+        grid-column-end: 2 !important;
+    }
 }
