@@ -75,7 +75,7 @@
         grid-template-columns: 1fr 1fr 1fr !important;
     }
 
-    .activity-feed.activity-message, .activity-feed.activity-text {
+    .activity-message, .activity-text {
         grid-column-end: 4 !important;
     }
 
