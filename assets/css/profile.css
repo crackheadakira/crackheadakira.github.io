@@ -88,9 +88,11 @@
     margin-right: 0 !important;
 }
 
+/*
 .banner {
 	background-image: var(--banner-image) !important;
 }
+*/
 
 .nav-wrap > .nav.container {
     max-width: none !important;
